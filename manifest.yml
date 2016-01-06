@@ -1,0 +1,7 @@
+---
+applications:
+- name: nifty-gui
+  memory: 512M
+  host: nifty
+  services:
+  - womackbookstore
