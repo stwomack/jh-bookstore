@@ -5,3 +5,5 @@ applications:
   host: nifty
   services:
   - womack-mysql
+  buildpack: https://github.com/cloudfoundry/java-buildpack`
+  path: target/bookstore-0.0.1-SNAPSHOT.war
